@@ -1,8 +1,10 @@
-export const Header = ({name}) => {
+import './Header.css'
+export const Header = ({nombre}) => {
     return (
-        <div>
-            <h1>{name}</h1>
-            <h2>Presentacion de mi portafolio</h2>
+        <div className="cabeza">
+            <div>Portafolio</div>
+            <h1>{nombre}</h1>
+            <hr />
         </div>
     )
   }

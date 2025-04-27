@@ -26,5 +26,5 @@ import { Main } from "./Main"
 
    
 }
-export default Home
+ export default Home
 
